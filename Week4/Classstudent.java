@@ -1,3 +1,5 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 import java.util.Scanner;
 class student3{
     public 
@@ -16,13 +18,13 @@ class student3{
 public class classstudent {
     public static void main(String[] args){
         Scanner op=new Scanner(System.in);
-        student3 virat=new student3();
-        System.out.print("Enter name");
-        virat.fullName=op.next();
-        System.out.print("Enter Sempercentage");
-        virat.semPercentage=op.nextInt();
+        student3 Ganesh=new student3();
+        System.out.print("Enter name :");
+        Ganesh.fullName=op.next();
+        System.out.print("Enter Sempercentage :");
+        Ganesh.semPercentage=op.nextInt();
         op.close();
-        student3 hi=new student3(virat.fullName,virat.semPercentage);
+        student3 hi=new student3(Ganesh.fullName,Ganesh.semPercentage);
 
     }
 
