@@ -1,7 +1,7 @@
 import java.util.Scanner;
-class student1{
+class student2{
     public 
-        student1(){
+        student2(){
             System.out.println("Hi! constructer has been created");
         }
         String fullName;
@@ -10,21 +10,21 @@ class student1{
         String collegeName;
         int collegeCode;
 }
-class student{
+class student1{
     public static void main(String[] args){
         Scanner op=new Scanner(System.in);
-        student1 virat=new student1();
+        student2 Ganesh=new student2();
         System.out.println("Enter your name :");
-        virat.fullName=op.next();
+        Ganesh.fullName=op.next();
         System.out.println("Enter your rollnumber :");
-        virat.rollNum=op.nextInt();
+        Ganesh.rollNum=op.nextInt();
         System.out.println("Enter your sempercantage :");
-        virat.semPerentage=op.nextInt();
+        Ganesh.semPerentage=op.nextInt();
         System.out.println("Enter your collegename :");
-        virat.collegeName=op.next();
+        Ganesh.collegeName=op.next();
         System.out.println("Enter your collegecode :");
-        virat.collegeCode=op.nextInt();
-        System.out.println("Name : "+virat.fullName+"\nRoll number : "+virat.rollNum+"\nSempercentage : "+virat.semPerentage+"\nCollegename : "+virat.collegeName+"\nCollegecode : "+virat.collegeCode);
+        Ganesh.collegeCode=op.nextInt();
+        System.out.println("Name : "+Ganesh.fullName+"\nRoll number : "+Ganesh.rollNum+"\nSempercentage : "+Ganesh.semPerentage+"\nCollegename : "+Ganesh.collegeName+"\nCollegecode : "+Ganesh.collegeCode);
 
     }
 }
