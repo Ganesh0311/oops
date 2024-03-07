@@ -5,7 +5,7 @@ class ClassA
 public: 
     void aClass() 
     { 
-        cout<<"Iam a ClassA\n"; 
+        cout<<"Iam Ganesh \n"; 
     } 
 }; 
 class ClassB
@@ -13,7 +13,7 @@ class ClassB
 public: 
     void bClass() 
     { 
-        cout<<"Iam a ClassB\n"; 
+        cout<<"Iam ayhkela \n"; 
     } 
 }; 
 //Multiple Inheritance 
@@ -22,7 +22,7 @@ class ClassC: public ClassA,public ClassB
 public: 
     void cClass() 
     { 
-        cout<<"Iam a ClassC\n"; 
+        cout<<"Iam Praneeth \n"; 
     } 
 }; 
 //Simple Inheritance 
@@ -31,7 +31,7 @@ class ClassD: public ClassA
 public: 
     void dClass() 
     { 
-        cout<<"Iam a ClassD\n"; 
+        cout<<"Iam Vamsi \n"; 
     } 
 }; 
 //Hybrid Inheritance 
@@ -40,7 +40,7 @@ class ClassE: public ClassC,public ClassD
 public: 
     void eClass() 
     { 
-        cout<<"Iam a ClassE\n"; 
+        cout<<"Iam lokesh\n"; 
     } 
 }; 
 //Multi-Level Inheritance 
@@ -49,7 +49,7 @@ class ClassF: public ClassD
 public: 
     void fClass() 
     { 
-    cout<<"Iam a ClassF\n"; 
+    cout<<"Iam durga\n"; 
     } 
 }; 
 //Hierarchical Inheritance 
@@ -58,7 +58,7 @@ class ClassG:public ClassA
 public: 
     void gClass() 
     { 
-        cout<<"Iam a ClassG\n"; 
+        cout<<"Iam a mahi\n"; 
     } 
 }; 
 class ClassH:public ClassA 
@@ -66,7 +66,7 @@ class ClassH:public ClassA
 public: 
     void hClass() 
     { 
-        cout<<"Iam a ClassH\n"; 
+        cout<<"Iam virat\n"; 
     } 
 }; 
 int main() 
@@ -107,6 +107,3 @@ int main()
     obj6.eClass(); 
     return 0; 
 }
-
-
-
