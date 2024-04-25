@@ -18,7 +18,7 @@ class BubbleSort<T extends Comparable <T>>{
         Integer data[] = {7, 5, 4, 9, 2};
         obj.bubbleSort(data);
         BubbleSort<String> obj1 = new BubbleSort<>();
-        String data1[] = {"Gurram","Alekhya"};
+        String data1[] = {"Boni","Ganeshhh"};
         obj1.bubbleSort(data1);
         BubbleSort<Double> obj2 = new BubbleSort<>();
         Double data2[] = {2.39, 1.65, 8.63};
